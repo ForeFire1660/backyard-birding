@@ -1,4 +1,4 @@
-import{w as m,g as c,S as s}from"./index-FKGoSd61.js";const l={name:"texture-bit",vertex:{header:`
+import{w as m,g as c,S as s}from"./index-CEq5Sgdb.js";const l={name:"texture-bit",vertex:{header:`
 
         struct TextureUniforms {
             uTextureMatrix:mat3x3<f32>,
