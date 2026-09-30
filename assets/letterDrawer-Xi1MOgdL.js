@@ -1,0 +1,1 @@
+const u=/\bthe (Feeders|Plants|Water|Structures|Yard) menu\b/;function c(r,e){const n=Object.keys(r&&r.unlockedNew||{});for(const t of n){const o=e?e[t]:null;if(o&&o.category)return o.category}return null}function l(r,e,n){const t=e&&typeof e.text=="string"?u.exec(e.text):null;return t?t[1].toLowerCase():c(r,n)}export{l as letterDrawer,c as unlockDrawer};

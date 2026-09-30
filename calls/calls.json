@@ -374,7 +374,7 @@
   "pickedLevelDb": -5.3,
   "preGainDb": 12.1,
   "licence": "Public domain",
-  "author": "Unknown author Unknown author",
+  "author": "Unknown author",
   "source": "https://commons.wikimedia.org/wiki/File:Archilochus%20colubris.ogg"
  },
  {
@@ -1192,7 +1192,7 @@
   "pickedLevelDb": -4.5,
   "preGainDb": 5,
   "licence": "Public domain",
-  "author": "Unknown author Unknown author",
+  "author": "Unknown author",
   "source": "https://commons.wikimedia.org/wiki/File:Picoides%20villosus.ogg"
  },
  {
@@ -1297,7 +1297,7 @@
   "pickedLevelDb": -5.8,
   "preGainDb": 16,
   "licence": "CC0",
-  "author": "Sonoth\u00c3\u00a8que ADVL",
+  "author": "Sonoth\u00e8que ADVL",
   "source": "https://xeno-canto.org/1136258"
  },
  {
@@ -1444,7 +1444,7 @@
   "pickedLevelDb": -6.7,
   "preGainDb": 3.7,
   "licence": "CC0",
-  "author": "Sonoth\u00c3\u00a8que ADVL",
+  "author": "Sonoth\u00e8que ADVL",
   "source": "https://xeno-canto.org/1051450"
  },
  {
@@ -1842,7 +1842,7 @@
   "pickedLevelDb": -6.7,
   "preGainDb": 12.1,
   "licence": "CC BY",
-  "author": "Sebasti\u00c3\u00a1n de Jes\u00c3\u00bas Herrera Buenfil",
+  "author": "Sebasti\u00e1n de Jes\u00fas Herrera Buenfil",
   "source": "https://www.inaturalist.org/observations/104913921"
  },
  {
@@ -2620,5 +2620,103 @@
   "licence": "CC BY 4.0",
   "author": "Lukas Beck",
   "source": "https://commons.wikimedia.org/wiki/File:Walking_through_snow.mp3"
+ },
+ {
+  "id": "house_knock",
+  "species": "Knocking on a door",
+  "file": "house_knock.webm",
+  "seconds": 0.67,
+  "bytes": 2175,
+  "peakDb": -6,
+  "rmsDb": -33.6,
+  "loudRmsDb": -28.3,
+  "lufs": -33.5,
+  "gainDb": -17.1,
+  "onsetTrimmed": 0.027,
+  "pickedAtS": 1.3,
+  "preGainDb": 23.5,
+  "windowS": [
+   1.3,
+   2
+  ],
+  "hpHz": 80,
+  "level": "peak -6 dBFS",
+  "licence": "CC0",
+  "author": "Asud12",
+  "source": "https://commons.wikimedia.org/wiki/File:Knock_on_door.wav"
+ },
+ {
+  "id": "car_chirp",
+  "species": "A car unlocking",
+  "file": "car_chirp.webm",
+  "seconds": 0.67,
+  "bytes": 2296,
+  "peakDb": -6,
+  "rmsDb": -19.1,
+  "loudRmsDb": -14.9,
+  "lufs": -18.2,
+  "gainDb": -1.8,
+  "onsetTrimmed": 0.032,
+  "pickedAtS": 0.05,
+  "preGainDb": 20,
+  "windowS": [
+   0.05,
+   0.75
+  ],
+  "hpHz": 200,
+  "level": "peak -6 dBFS",
+  "licence": "Public domain",
+  "author": "hc",
+  "source": "https://commons.wikimedia.org/wiki/File:Unlocking_a_car.ogg"
+ },
+ {
+  "id": "mailbox_flap",
+  "species": "A letter into a mailbox",
+  "file": "mailbox_flap.webm",
+  "seconds": 1.65,
+  "bytes": 5050,
+  "peakDb": -6,
+  "rmsDb": -28,
+  "loudRmsDb": -23.2,
+  "lufs": -27.5,
+  "gainDb": -8.2,
+  "onsetTrimmed": 0.047,
+  "pickedAtS": 10.8,
+  "preGainDb": 9.1,
+  "windowS": [
+   10.8,
+   12.5
+  ],
+  "hpHz": 150,
+  "level": "peak -6 dBFS",
+  "licence": "Public Domain Mark 1.0",
+  "author": "Bj\u00f6rn Eriksson",
+  "source": "https://archive.org/details/aporee_14131_16460"
+ },
+ {
+  "id": "dripper",
+  "species": "A dripping tap",
+  "file": "dripper.webm",
+  "seconds": 6.4,
+  "bytes": 19122,
+  "peakDb": -6,
+  "rmsDb": -37.6,
+  "loudRmsDb": -33.6,
+  "lufs": -36,
+  "gainDb": -18.6,
+  "onsetTrimmed": 0,
+  "pickedAtS": 7.8,
+  "preGainDb": 24.1,
+  "windowS": [
+   7.8,
+   14.2
+  ],
+  "hpHz": 250,
+  "level": "peak -6 dBFS",
+  "loop": true,
+  "seam": 0.0005,
+  "licence": "Public Domain Mark 1.0",
+  "author": "Peter Cusack",
+  "source": "https://archive.org/details/aporee_23532_27364"
  }
 ]

@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>For the Birds</title>
     <!--
+      W3 HUNT E 2026-09-27 (E1): AN EMPTY ICON, SO THE BROWSER NEVER ASKS FOR ONE. With no icon
+      named, every web visit asks the origin for /favicon.ico -- on Pages that is the ROOT of the
+      github.io host, which has none -- and the 404 is a red "Failed to load resource" line in the
+      console of every session. `data:,` names an icon that is nothing, which is what the tab shows
+      today: nothing changes on screen and nothing is fetched. (The game's own icon in the tab is a
+      look, and the owner's call; see the round doc.)
+    -->
+    <link rel="icon" href="data:," />
+    <!--
       W3 TRUST 2026-09-22 (C5): THE SPLASH. Until the first script has downloaded and parsed --
       the best part of 600 kB gzip on a cold web visit -- this page was a blank dark sheet with
       nothing on it to say anything was coming. This is the game's name, and nothing else: no
@@ -36,13 +45,13 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="./assets/index-DdIPmSpy.js"></script>
+    <script type="module" crossorigin src="./assets/index-CFGU4OI3.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-qa-ci6LT.js">
     <link rel="modulepreload" crossorigin href="./assets/vendor-C2ns_jXA.js">
     <link rel="modulepreload" crossorigin href="./assets/pixi-lmyLYRcH.js">
-    <link rel="modulepreload" crossorigin href="./assets/data-CkJynvoD.js">
-    <link rel="modulepreload" crossorigin href="./assets/art-Bf5Kf5OG.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-m1LJwe-U.css">
+    <link rel="modulepreload" crossorigin href="./assets/data-Czpdxwiu.js">
+    <link rel="modulepreload" crossorigin href="./assets/art-DjeSgVMW.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BsvkQCBI.css">
   </head>
   <body>
     <div id="root"><div class="ftb-splash" data-splash="1">For the Birds</div></div>
