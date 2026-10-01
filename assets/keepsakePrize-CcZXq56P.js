@@ -1,1 +1,0 @@
-import{W as i}from"./data-Czpdxwiu.js";import{aO as l,aP as u}from"./index-CFGU4OI3.js";function o(a,r){const e=a&&a.magazine&&a.magazine.met,n=u(r);return e&&n&&e[n]?e[n]-1:null}function s(a,r,e){const n=o(a,r);return n!=null&&n>=(Math.max(1,e)-1)*i}function c(a,r,e){const n=l(r);if(!n)return null;const t=o(a,r);return t!=null&&t<(Math.max(1,e)-1)*i?null:n}export{s as a,c as p};
